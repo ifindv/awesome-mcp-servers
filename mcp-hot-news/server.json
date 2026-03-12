@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "mcp-hot-news",
+  "title": "MCP Hot News Server",
+  "description": "MCP server for hot news from WeChat, Zhihu and Weibo",
+  "repository": {
+    "url": "https://github.com/yourusername/mcp-hot-news",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "mcp-hot-news",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": []
+    }
+  ]
+}
