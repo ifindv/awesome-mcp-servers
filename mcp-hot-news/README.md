@@ -15,6 +15,7 @@
 - 微信热文
 - 知乎热榜
 - 微博热搜
+- 澎湃新闻
 
 ## 安装
 
@@ -62,7 +63,7 @@ pip install mcp-hot-news
    - 参数：limit (可选，默认10)
 2. **get_news_by_source** - 从指定新闻源获取新闻
 
-   - 参数：source (必需，可选值：微信、知乎、微博)
+   - 参数：source (必需，可选值：微信、知乎、微博、澎湃)
    - 参数：limit (可选，默认10)
 3. **get_news_by_category** - 按分类获取新闻
 

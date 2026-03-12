@@ -12,7 +12,7 @@ from typing import List, Optional
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from models import NewsItem, NewsRequest
-from providers import BaseProvider, WechatProvider, ZhihuProvider, WeiboProvider
+from providers import BaseProvider, WechatProvider, ZhihuProvider, WeiboProvider, ThepaperProvider
 from providers.base_provider import (
     NewsFetcherError,
     ProviderNotFoundError,
@@ -37,7 +37,8 @@ class NewsFetcher:
         self.providers = providers or [
             WechatProvider(),
             ZhihuProvider(),
-            WeiboProvider()
+            WeiboProvider(),
+            ThepaperProvider()
         ]
         self._cache = {}
         self._cache_time = {}

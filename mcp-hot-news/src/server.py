@@ -74,8 +74,8 @@ class HotNewsServer:
                         "properties": {
                             "source": {
                                 "type": "string",
-                                "description": "新闻源名称（微信、知乎、微博）",
-                                "enum": ["微信", "知乎", "微博"]
+                                "description": "新闻源名称（微信、知乎、微博、澎湃）",
+                                "enum": ["微信", "知乎", "微博", "澎湃"]
                             },
                             "limit": {
                                 "type": "number",
