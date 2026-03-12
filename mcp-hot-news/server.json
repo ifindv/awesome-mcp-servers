@@ -4,7 +4,7 @@
   "title": "MCP Hot News Server",
   "description": "MCP server for hot news from WeChat, Zhihu and Weibo",
   "repository": {
-    "url": "https://github.com/yourusername/mcp-hot-news",
+    "url": "https://github.com/ifindv/awesome/mcp-hot-news",
     "source": "github"
   },
   "version": "0.1.0",

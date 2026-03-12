@@ -22,8 +22,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/mcp-hot-news.git
-cd mcp-hot-news
+git clone https://github.com/ifindv/awesome-mcp-servers.git
+cd awesome-mcp-servers/mcp-hot-news
 
 # 安装依赖
 pip install -r requirements.txt
@@ -40,12 +40,6 @@ pip install mcp-hot-news
 
 ## 使用方法
 
-### 直接运行
-
-```bash
-python src/server.py
-```
-
 ### MCP 客户端配置
 
 在您的 MCP 客户端配置文件中添加以下配置：
@@ -55,7 +49,7 @@ python src/server.py
   "mcpServers": {
     "mcp-hot-news": {
       "command": "python",
-      "args": ["e:\\code\\mcp-servers\\mcp-hot-news\\src\\server.py"]
+      "args": ["e:\\YOUR_WORK_PATH\\awesome-mcp-servers\\mcp-hot-news\\src\\server.py"]
     }
   }
 }
@@ -64,17 +58,18 @@ python src/server.py
 ### 可用工具
 
 1. **get_hot_news** - 获取今日热点新闻
-   - 参数：limit (可选，默认10)
 
+   - 参数：limit (可选，默认10)
 2. **get_news_by_source** - 从指定新闻源获取新闻
+
    - 参数：source (必需，可选值：微信、知乎、微博)
    - 参数：limit (可选，默认10)
-
 3. **get_news_by_category** - 按分类获取新闻
+
    - 参数：category (必需，可选值：科技、娱乐、体育、财经、社会、国际、其他)
    - 参数：limit (可选，默认10)
-
 4. **search_news** - 搜索新闻
+
    - 参数：keywords (必需)
    - 参数：limit (可选，默认10)
    - 参数：offset (可选，默认0)
